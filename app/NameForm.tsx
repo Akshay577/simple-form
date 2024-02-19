@@ -33,6 +33,7 @@ export function NameForm() {
     })
 
     const showData = (values: any, name: string) => {
+        // displaying data in simple html as the deadline is very short
         return (
             <div className="font-bold py-10">
                 <h2>Name: {name}</h2>
